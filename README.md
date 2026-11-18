@@ -31,7 +31,7 @@ Every fact was checked against reporting of 18 November 2026 (CENTCOM, Al Jazeer
 
 ## How it is made
 
-The image was composed offline with Python/PIL and DejaVu fonts (`draw_poster.py`, kept out of this repo as build tooling) and ships here as `entry.png` (1024×1024, 164 KB). The entrypoint `main.ts` (Node 22, standard library only) copies it to `/output/entry.png` and verifies it first: PNG magic bytes, every chunk's CRC, IHDR dimensions, the 1 MiB / 1024×1024 caps, and a byte-identical read-back. No network, no clock, no randomness — both grader runs write the same bytes.
+The image was composed offline with Python/PIL and DejaVu fonts (`draw_poster.py`, kept out of this repo as build tooling), enhanced with Gemini at the entrant's direction (richer colours, stronger contrast, sharper illustrations; all text kept exactly the same), then resized to 1024×1024 and saved as JPEG quality 90 — it ships here as `entry.png` (328 KB), the name the rules require for either format. The entrypoint `main.ts` (Node 22, standard library only) copies it to `/output/entry.png` and verifies it first: JPEG magic bytes, the frame header dimensions, the end marker at the file's end, the 1 MiB / 1024×1024 caps, and a byte-identical read-back. No network, no clock, no randomness — both grader runs write the same bytes.
 
 ## Run it
 
