@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261118/Shanumameyra/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 [![reward](https://make.fun/badge/news-image-20261118/Shanumameyra/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
 
-A newspaper front page summing up the world's news of **Wednesday 18 November 2026** — one image, seven stories. Entry for the make.fun **news-image-20261118** bounty ($250, 50 paid places).
+A newspaper front page summing up the world's news of **Wednesday 18 November 2026** — one image, nine stories. Entry for the make.fun **news-image-20261118** bounty ($250, 50 paid places).
 
 ![The World in One Day — 18 November 2026](entry.png)
 
@@ -15,9 +15,10 @@ A newspaper front page summing up the world's news of **Wednesday 18 November 20
 3. **ASIA** — Quad leaders meet in Manila: Trump joins the leaders of India, Japan and Australia for talks on security and China, ahead of his visit to Beijing.
 4. **GAZA** — UN warns more will die of cold: 1.7 million displaced face winter without shelter; 1.4 million face acute hunger.
 5. **CLIMATE** — COP31 in Antalya enters a decisive phase with 144 items still disputed.
-6. **ALSO TODAY** — Romania quake 5.3; Russian An-12 crash kills 19; NVIDIA revenue $115.8bn; U.S. measles at a 40-year high.
+6. **CRYPTO** — Bitcoin slumps 12% in a week, falling below its 200-week average near $65,000; U.S. spot Bitcoin ETFs bled $1.07bn in a week and the Fear & Greed Index sits at 12 — extreme fear.
+7. **INDONESIA** — BMKG warns of heavy rain, lightning and strong winds — and floods — in 17 provinces from 17 to 23 November 2026.
 
-Every fact was checked against reporting of 18 November 2026 (CENTCOM, Al Jazeera, AP, Reuters, UN).
+Every fact was checked against reporting of 18 November 2026 (CENTCOM, Al Jazeera, AP, Reuters, UN, CoinDesk, BMKG).
 
 ## How it is made
 
