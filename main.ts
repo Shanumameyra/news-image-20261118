@@ -2,16 +2,29 @@
 // A newspaper front page summing up Wednesday 18 November 2026.
 //
 // The image (entry.png, 1024x1024, drawn offline with PIL + DejaVu fonts)
-// is the entry: a masthead, the date, and nine verified stories of the day:
+// is the entry: a masthead, the date, 12 featured stories (numbered 1-12
+// and marked on the dotted world map) plus 24 more in a numbered list —
+// 36 stories in one page:
 //   1. GULF WAR — U.S. sinks five Iranian tankers; Iran hits back (lead)
 //   2. UKRAINE — Kyiv hits the Kerch Bridge a second night
 //   3. ASIA — Quad leaders meet in Manila
-//   4. GAZA — UN warns more will die of cold
-//   5. CLIMATE — COP31: 144 items still disputed
-//   6. CRYPTO — Bitcoin slumps 12% in a week, below its 200-week average
-//   7. INDONESIA — BMKG warns of heavy rain and floods in 17 provinces
+//   4. NVIDIA — $115.8bn quarter
+//   5. CYCLONE AKVAN — bears down on India
+//   6. KNESSET — Kahana elected speaker, blow to Netanyahu
+//   7. EU LOAN — €45bn for Ukraine proposed
+//   8. CHINA–CANADA — Xi, Carney extend trade deals
+//   9. GAZA — UN warns more will die of cold
+//  10. CLIMATE — COP31: 144 items still disputed
+//  11. CRYPTO — Bitcoin slumps 12% in a week, below its 200-week average
+//  12. INDONESIA — BMKG warns of heavy rain and floods in 17 provinces
+//  13-36. Romania quake, An-12 crash, U.S. measles, Dhoni retires,
+//  APEC trilateral, Apple outage, India GDP, Amazon $7bn, Japan
+//  scrambles, Pope Leo, Grammys, Baidu, Taiwan, Serbia, Mongolia,
+//  Pattinson as Bond, N. Korea missile, France M51.3, Voyager 1,
+//  Australia sanctions, DR Congo, Ecuador, France strikes, Spain strike.
 // Every fact was checked against reporting of 18 Nov 2026 (CENTCOM,
-// Al Jazeera, AP, Reuters, UN, CoinDesk, BMKG) before the image was drawn.
+// Al Jazeera, AP, Reuters, AFP, BBC, UN, CoinDesk, BMKG, IMD) before the
+// image was drawn. Disputed claims are attributed, not stated as fact.
 //
 // This program is the whole entrypoint: it copies entry.png to
 // /output/entry.png (MAKEFUN_OUTPUT_DIR outside the grader) and verifies
